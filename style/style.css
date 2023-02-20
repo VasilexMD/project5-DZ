@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+header {
+    height: 50px;
+    margin-bottom: 40px;
+    background-color: rgb(201, 198, 195);
+}
+h1 {
+    text-align: center;
+    font-size: 40px;
+}
+main {
+    display: flex;
+    justify-content: center;
+}
+table {
+    border: 1px solid black;
+  }
+  td, th {
+    font-size: 40px;
+    border: 1px solid black;
+    padding: 10px 15px;
+  }
+  td.item-12 {
+    background-image: url(./../img/usa.png);
+    background-size: 50px 50px;
+    background-position: left center;
+    background: url(./../img/usa.png) no-repeat right center / 50px 50px;
+  }
+  td.item-12 {
+    background-image: url(./../img/usa.png), url(./../img/eur.png);
+    background-repeat: no-repeat;
+    background-size: 60px 60px, 60px 60px;
+    background-position: left center, right center;
+}
+td.item-13 {
+    background-image: url(./../img/eng.png), url(./../img/eur.png);
+    background-repeat: no-repeat;
+    background-size: 60px 60px, 60px 60px;
+    background-position: left center, right center;
+}
+td.item-14 {
+    background-image: url(./../img/jpn.webp), url(./../img/eur.png);
+    background-repeat: no-repeat;
+    background-size: 60px 60px, 60px 60px;
+    background-position: left center, right center;
+}
+  td.item-15 {
+    background-image: url(./../img/chf.png), url(./../img/eur.png);
+    background-repeat: no-repeat;
+    background-size: 60px 60px, 60px 60px;
+    background-position: left center, right center;
+  }
+  
